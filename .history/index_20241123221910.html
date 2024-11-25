@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <!--=== CSS ===-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--=== BOXICONS ===-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+</head>
+<body>
+    <!------------ header ------------>
+    <header>
+        <h1>Website</h1>
+    
+        <input type="checkbox" id="check" />
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+    
+        <nav class="navbar">
+            <a href="#" class="nav-item" style="--i: 1" data-aos="fade-down">Home</a>
+            <a href="#" class="nav-item" style="--i: 2" data-aos="fade-down">About</a>
+            <a href="#" class="nav-item" style="--i: 3" data-aos="fade-down">Projects</a>
+            <a href="#" class="nav-item" style="--i: 4" data-aos="fade-down">Contact</a>
+        </nav>
+    </header>
+    
+    <!------------ home ------------>
+    <section class="container">
+        <div class="slider-wraper">
+            <div class="slider">
+                <img src="Furniture1.jpg" alt="slide1">
+            </div>
+            <div class="slider">
+                <img src="furniture2.jpg" alt="slide2">
+            </div>
+            <div class="slider">
+                <img src="Furniture3.jpg" alt="slide3">
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

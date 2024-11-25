@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <!--=== CSS ===-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--=== BOXICONS ===-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+</head>
+<body>
+    <!------------ header ------------>
+    <header>
+        <h1>Website</h1>
+    
+        <input type="checkbox" id="check" />
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+    
+        <nav class="navbar">
+            <a href="#" class="nav-item" style="--i: 1" data-aos="fade-down">Home</a>
+            <a href="#" class="nav-item" style="--i: 2" data-aos="fade-down">About</a>
+            <a href="#" class="nav-item" style="--i: 3" data-aos="fade-down">Projects</a>
+            <a href="#" class="nav-item" style="--i: 4" data-aos="fade-down">Contact</a>
+        </nav>
+    </header>
+    
+    <!------------ home ------------>
+    <div class="slider">
+        <div class="slides">
+          <!-- Radio Buttons for Manual Navigation -->
+          <input type="radio" name="radio-btn" id="slide1" checked>
+          <input type="radio" name="radio-btn" id="slide2">
+          <input type="radio" name="radio-btn" id="slide3">
+          <input type="radio" name="radio-btn" id="slide4">
+    
+          <!-- Slide Images -->
+          <div class="slide first">
+            <img src="Furniture1.jpg" alt="Slide 1">
+          </div>
+          <div class="slide">
+            <img src="furniture2.jpg" alt="Slide 2">
+          </div>
+          <div class="slide">
+            <img src="Furniture3.jpg" alt="Slide 3">
+          </div>
+          <div class="slide">
+            <img src="furniture4.jpeg" alt="Slide 4">
+          </div>
+    
+          <!-- Automatic Navigation -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+    
+          <!-- Manual Navigation -->
+          <div class="navigation-manual">
+            <label for="slide1" class="manual-btn"></label>
+            <label for="slide2" class="manual-btn"></label>
+            <label for="slide3" class="manual-btn"></label>
+            <label for="slide4" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
