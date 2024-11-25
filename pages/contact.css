@@ -30,12 +30,14 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    padding-top: 60px;
 }
 
 .form {
     height: 500px;
     width: 100%;
-    max-width: 750px;
+    max-width: 820px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
@@ -93,7 +95,7 @@ form {
 }
 
 textarea.input {
-    padding: 20.48px 30.72px;
+    padding: 10px 15px;
     min-height: 150px;
     border-radius: 5px;
     resize: none;
@@ -209,7 +211,8 @@ input::placeholder, textarea::placeholder {
   
 @media (max-width: 480px) {
     .container {
-        padding: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
   
     .contact-info:before {
