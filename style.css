@@ -170,7 +170,7 @@ section{
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -196,7 +196,7 @@ section{
 }
 @media screen and (max-width: 445px) {
     .home-text h1{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 .home-text h1 span{
@@ -512,7 +512,7 @@ section{
     color: black;
     text-shadow: 0px 1px 25px white;
 }
-@media screen and (max-width: 348px) {
+@media screen and (max-width: 400px) {
     .newsshelter h2{
         letter-spacing: 0;
         font-size: 18px;
